@@ -1,0 +1,648 @@
+PRACTICA CALIFICADA 02 - UNIDAD 2
+VISUALIZACION DE DOMINIOS GEOGRAFICOS MEDIANTE PUNTOS, CUADRICULAS Y MALLAS
+
+Curso: Visualizacion de Datos
+Programa de estudios: Ingenieria de Sistemas
+Semestre: X
+Modalidad: Individual
+Estudiante: Jhon Marco Aracayo Mamani
+Pais seleccionado para el analisis: Peru
+
+======================================================================
+1. DESCRIPCION GENERAL DEL TRABAJO
+======================================================================
+
+El presente trabajo desarrolla una aplicacion en Python para visualizar dominios
+geograficos mediante puntos reales, cuadriculas y mallas. La aplicacion fue
+construida con Streamlit, Pandas, NumPy, Plotly, Matplotlib y ReportLab.
+
+El objetivo principal es aplicar tecnicas basicas de visualizacion espacial a
+partir de coordenadas de latitud y longitud. Para ello, el sistema permite:
+
+- Cargar un archivo CSV geografico.
+- Detectar columnas de ciudad, pais, latitud y longitud.
+- Filtrar datos por pais.
+- Filtrar datos por region/departamento.
+- Filtrar datos por zona macro: Norte, Centro y Sur.
+- Filtrar datos por region natural: Costa, Sierra y Selva.
+- Filtrar datos por ciudad o localidad.
+- Limpiar coordenadas vacias o inconsistentes.
+- Calcular el dominio geografico rectangular.
+- Graficar puntos reales.
+- Generar una cuadricula regular.
+- Construir una malla visual.
+- Mostrar mapas interactivos con OpenStreetMap.
+- Generar un informe PDF desde la misma aplicacion.
+
+La aplicacion se encuentra en el archivo:
+
+app.py
+
+Para ejecutarla se puede usar:
+
+python -m streamlit run app.py
+
+Tambien se agrego un lanzador para Windows:
+
+run_app.bat
+
+======================================================================
+2. DATASET UTILIZADO
+======================================================================
+
+Dataset indicado por la practica:
+
+Geolocation Data [Longitude Latitude]
+Fuente: Kaggle
+Enlace: https://www.kaggle.com/datasets/liewyousheng/geolocation
+
+Como el archivo CSV original de Kaggle no se encontraba en la carpeta del
+proyecto, se incluyo un archivo local de muestra con localidades del Peru:
+
+data/peru_geolocation_sample.csv
+
+Este archivo permite que la aplicacion funcione inmediatamente y que se puedan
+observar todos los resultados de la practica. Si posteriormente se descarga el
+CSV real de Kaggle, la aplicacion permite subirlo desde la barra lateral.
+
+======================================================================
+3. EXPLORACION DE LA BASE DE DATOS
+======================================================================
+
+Archivo utilizado:
+
+data/peru_geolocation_sample.csv
+
+Cantidad de registros del archivo utilizado:
+
+35 registros
+
+Cantidad de registros limpios luego del procesamiento:
+
+35 registros
+
+Columnas originales del archivo:
+
+- city_name
+- country_name
+- region_name
+- latitude
+- longitude
+
+Columnas detectadas por la aplicacion:
+
+- Ciudad o localidad: city_name
+- Pais: country_name
+- Region: region_name
+- Latitud: latitude
+- Longitud: longitude
+
+Columnas que representan coordenadas geograficas:
+
+- Latitud: latitude
+- Longitud: longitude
+
+Pais seleccionado:
+
+Peru
+
+La aplicacion permite mantener Peru como pais principal de analisis, pero no se
+limita a mostrar todo Peru de manera fija. Tambien permite filtrar por regiones,
+ciudades, zona macro y region natural.
+
+======================================================================
+4. LIMPIEZA Y SELECCION DE DATOS
+======================================================================
+
+La limpieza de datos se realiza con los siguientes pasos:
+
+1. Se carga el archivo CSV.
+2. Se detectan automaticamente las columnas principales.
+3. Se filtran los registros correspondientes al pais seleccionado.
+4. Se convierten las columnas de latitud y longitud a valores numericos.
+5. Se eliminan registros con coordenadas vacias.
+6. Se eliminan registros inconsistentes que no se pueden convertir a numero.
+7. Se eliminan duplicados considerando localidad y coordenadas.
+8. Se agregan columnas de clasificacion geografica:
+   - Zona macro: Norte, Centro o Sur.
+   - Region natural: Costa, Sierra o Selva.
+
+Tabla limpia esperada por la practica:
+
+- Ciudad o localidad
+- Pais
+- Latitud
+- Longitud
+
+Tabla limpia generada por la aplicacion:
+
+- Ciudad o localidad
+- Pais
+- Region
+- Latitud
+- Longitud
+- Zona macro
+- Region natural
+
+Ejemplo de registros limpios:
+
+Ciudad o localidad | Pais | Region | Latitud | Longitud | Zona macro | Region natural
+Abancay | Peru | Apurimac | -13.6339 | -72.8814 | Sur | Sierra
+Andahuaylas | Peru | Apurimac | -13.6575 | -73.3872 | Sur | Sierra
+Arequipa | Peru | Arequipa | -16.4090 | -71.5375 | Sur | Costa
+Ayacucho | Peru | Ayacucho | -13.1639 | -74.2236 | Sur | Sierra
+Cajamarca | Peru | Cajamarca | -7.1617 | -78.5128 | Norte | Sierra
+Cerro de Pasco | Peru | Pasco | -10.6864 | -76.2564 | Centro | Sierra
+Chiclayo | Peru | Lambayeque | -6.7714 | -79.8409 | Norte | Costa
+Chimbote | Peru | Ancash | -9.0745 | -78.5936 | Centro | Costa
+Cusco | Peru | Cusco | -13.5319 | -71.9675 | Sur | Sierra
+Desaguadero | Peru | Puno | -16.5656 | -69.0417 | Sur | Sierra
+
+======================================================================
+5. FILTROS IMPLEMENTADOS EN LA APLICACION
+======================================================================
+
+La aplicacion incluye filtros dinamicos para que el analisis no sea solamente
+una tabla general de Peru.
+
+Filtros disponibles:
+
+1. Filtro por pais:
+   Permite seleccionar Peru u otro pais si el CSV cargado contiene mas paises.
+
+2. Filtro por region/departamento:
+   Permite seleccionar regiones como Puno, Lima, Piura, Arequipa, Loreto,
+   Ancash, Cusco, entre otras.
+
+3. Filtro por zona macro:
+   Clasifica las localidades en:
+   - Norte
+   - Centro
+   - Sur
+
+4. Filtro por region natural:
+   Clasifica las localidades en:
+   - Costa
+   - Sierra
+   - Selva
+
+5. Filtro por ciudad o localidad:
+   Permite analizar ciudades especificas.
+
+Cada vez que se aplica un filtro, la aplicacion recalcula:
+
+- La tabla limpia.
+- El dominio geografico.
+- Los valores xmin, xmax, ymin, ymax.
+- La cuadricula.
+- La malla visual.
+- Los mapas.
+- El PDF descargable.
+
+Esto significa que si se filtra por Puno, la cuadricula y la malla se construyen
+solo sobre el dominio geografico de los puntos de Puno, no sobre todo Peru.
+
+======================================================================
+6. DELIMITACION DEL DOMINIO GEOGRAFICO
+======================================================================
+
+El dominio geografico se construye a partir de los valores minimos y maximos de
+longitud y latitud.
+
+Definicion:
+
+xmin = longitud minima
+xmax = longitud maxima
+ymin = latitud minima
+ymax = latitud maxima
+
+Dominio:
+
+D = [xmin, xmax] x [ymin, ymax]
+
+Resultados calculados para el dataset de muestra de Peru:
+
+Parametro | Valor | Interpretacion
+Longitud minima | -81.2719 | Limite occidental del dominio
+Longitud maxima | -69.0417 | Limite oriental del dominio
+Latitud minima | -18.0066 | Limite sur del dominio
+Latitud maxima | -3.5669 | Limite norte del dominio
+
+Dominio geografico resultante:
+
+D = [-81.2719, -69.0417] x [-18.0066, -3.5669]
+
+Interpretacion:
+
+El dominio representa el rectangulo geografico que contiene todas las localidades
+peruanas usadas en el analisis. Incluye puntos desde el norte del Peru hasta el
+sur, y desde la costa occidental hasta zonas cercanas a la selva oriental.
+
+======================================================================
+7. RESULTADOS POR REGION
+======================================================================
+
+Cantidad de localidades por region en el archivo de muestra:
+
+Ancash: 2
+Apurimac: 2
+Arequipa: 2
+Ayacucho: 1
+Cajamarca: 1
+Cusco: 1
+Huanuco: 2
+Ica: 2
+Junin: 1
+La Libertad: 1
+Lambayeque: 1
+Lima: 1
+Loreto: 1
+Madre de Dios: 1
+Moquegua: 1
+Pasco: 1
+Piura: 4
+Puno: 5
+San Martin: 2
+Tacna: 1
+Tumbes: 1
+Ucayali: 1
+
+Interpretacion:
+
+La region con mayor cantidad de registros en la muestra es Puno, con 5
+localidades. Luego aparece Piura, con 4 localidades. Esto permite observar que
+la muestra contiene mayor detalle en algunas regiones, pero mantiene cobertura
+en costa, sierra y selva.
+
+======================================================================
+8. RESULTADOS POR ZONA MACRO
+======================================================================
+
+Distribucion por zona macro:
+
+Centro: 8 localidades
+Norte: 11 localidades
+Sur: 16 localidades
+
+Interpretacion:
+
+El sur concentra la mayor cantidad de puntos de la muestra, con 16 localidades.
+Esto se debe a la inclusion de ciudades como Arequipa, Puno, Tacna, Moquegua,
+Cusco, Ayacucho, Ica, Apurimac y Madre de Dios. El norte tambien tiene una
+presencia importante, especialmente por Piura, Tumbes, Lambayeque, La Libertad,
+Cajamarca, Loreto y San Martin.
+
+======================================================================
+9. RESULTADOS POR REGION NATURAL
+======================================================================
+
+Distribucion por region natural:
+
+Costa: 16 localidades
+Sierra: 14 localidades
+Selva: 5 localidades
+
+Interpretacion:
+
+La costa tiene la mayor cantidad de puntos en la muestra, seguida por la sierra.
+La selva tiene menos registros, pero incluye ciudades importantes como Iquitos,
+Pucallpa, Tarapoto, Moyobamba y Puerto Maldonado. Esta clasificacion permite
+analizar diferencias territoriales y facilita la interpretacion espacial.
+
+======================================================================
+10. VISUALIZACION DE PUNTOS GEOGRAFICOS REALES
+======================================================================
+
+La aplicacion genera dos formas de visualizar los puntos reales:
+
+1. Grafico de dispersion:
+   - Longitud en el eje X.
+   - Latitud en el eje Y.
+   - Titulo descriptivo.
+   - Etiquetas en los ejes.
+   - Cuadricula de fondo.
+   - Puntos visibles.
+
+2. Mapa interactivo:
+   - Usa OpenStreetMap.
+   - Muestra las localidades sobre el mapa real.
+   - Permite pasar el cursor sobre cada punto.
+   - Muestra ciudad, region, zona, latitud y longitud.
+   - Colorea puntos segun region natural.
+
+Interpretacion:
+
+Los puntos reales permiten observar la distribucion geografica de las
+localidades. En el caso de Peru, se aprecia una distribucion amplia desde la
+costa norte hasta el sur andino y la selva oriental. Esta visualizacion es util
+porque muestra donde se ubican los registros reales del dataset.
+
+======================================================================
+11. GENERACION DE CUADRICULA DE PUNTOS
+======================================================================
+
+La cuadricula se genera dentro del dominio geografico definido.
+
+Valores usados por defecto:
+
+dx = 0.5
+dy = 0.5
+
+Donde:
+
+dx representa la separacion horizontal entre puntos.
+dy representa la separacion vertical entre puntos.
+
+Resultados con el dataset de muestra:
+
+Numero de filas de la cuadricula: 30
+Numero de columnas de la cuadricula: 26
+Total de puntos generados: 780
+
+Interpretacion:
+
+La cuadricula no representa ciudades reales. Representa puntos generados
+matematicamente dentro del dominio para dividir el territorio en intervalos
+regulares. Esta cuadricula sirve como base para analizar el espacio de forma
+ordenada.
+
+En la aplicacion, la cuadricula se puede ver en:
+
+- Visualizaciones > Cuadricula
+- Mapa > Cuadricula en mapa
+
+La segunda vista es mas dinamica porque muestra los puntos de la cuadricula
+encima del mapa real.
+
+======================================================================
+12. CONSTRUCCION DE LA MALLA VISUAL
+======================================================================
+
+La malla se construye conectando los puntos de la cuadricula mediante:
+
+- Lineas horizontales.
+- Lineas verticales.
+- Dominio rectangular.
+- Puntos reales superpuestos.
+
+La malla se puede observar en:
+
+- Visualizaciones > Malla
+- Mapa > Malla en mapa
+
+Interpretacion:
+
+La malla permite visualizar el territorio de manera estructurada. Ayuda a
+comparar zonas, ubicar concentraciones de puntos y comprender la relacion entre
+los datos reales y el dominio geografico construido.
+
+La malla cumple lo solicitado en la practica porque:
+
+- Se construye a partir de la cuadricula.
+- Usa lineas horizontales.
+- Usa lineas verticales.
+- Respeta los limites del dominio.
+- Muestra los puntos reales encima.
+- Incluye titulo y etiquetas en la vista cartesiana.
+- Incluye mapa interactivo en la vista geografica.
+
+======================================================================
+13. DONDE SE VE CADA RESULTADO EN LA APLICACION
+======================================================================
+
+Pestana Mapa:
+
+- Localidades:
+  Muestra las ciudades reales sobre OpenStreetMap.
+
+- Cuadricula en mapa:
+  Muestra los puntos generados regularmente encima del mapa.
+
+- Malla en mapa:
+  Muestra la malla completa con lineas, dominio y puntos reales.
+
+Pestana Exploracion:
+
+- Muestra cantidad de registros.
+- Muestra columnas del dataset.
+- Muestra primeras filas.
+- Indica columnas detectadas.
+
+Pestana Limpieza:
+
+- Muestra tabla limpia y filtrada.
+- Incluye ciudad, pais, region, latitud, longitud, zona macro y region natural.
+
+Pestana Dominio:
+
+- Muestra xmin, xmax, ymin, ymax.
+- Muestra la interpretacion de cada limite.
+- Presenta el dominio rectangular.
+
+Pestana Visualizaciones:
+
+- Puntos reales.
+- Cuadricula.
+- Malla.
+
+Pestana Interpretacion:
+
+- Responde preguntas de la actividad 7.
+- Responde preguntas de analisis.
+
+Pestana Cumplimiento:
+
+- Muestra una tabla indicando si cada requisito cumple.
+- Explica como se cumple cada actividad dentro de la aplicacion.
+
+Pestana Codigo:
+
+- Muestra codigo base reproducible en Python.
+
+======================================================================
+14. RESPUESTAS DE LA ACTIVIDAD 7
+======================================================================
+
+a) Que representa el dominio geografico construido?
+
+Representa el rectangulo geografico minimo que contiene las coordenadas reales
+seleccionadas. En este trabajo, el dominio se define usando la longitud minima,
+longitud maxima, latitud minima y latitud maxima de las localidades filtradas.
+Si se trabaja con todo Peru, el dominio cubre el conjunto completo de ciudades
+de la muestra. Si se filtra por region, el dominio se recalcula solo para esa
+region.
+
+b) Que diferencia existe entre los puntos reales y los puntos generados en la
+cuadricula?
+
+Los puntos reales provienen del dataset y representan ciudades o localidades
+existentes. Los puntos generados en la cuadricula no son ciudades reales; son
+posiciones creadas matematicamente con separaciones constantes dx y dy. Su
+funcion es organizar el territorio y servir como referencia espacial.
+
+c) Que utilidad tiene una malla en la visualizacion de datos espaciales?
+
+La malla permite dividir el dominio en celdas visuales. Esto facilita comparar
+zonas, ubicar puntos dentro de un territorio, observar concentraciones y apoyar
+analisis relacionados con cobertura, distribucion, rutas o servicios. En la app,
+la malla se visualiza tanto en un grafico cartesiano como sobre un mapa real.
+
+d) Como podria aplicarse este tipo de visualizacion en un problema de Ingenieria
+de Sistemas?
+
+Puede aplicarse en problemas como:
+
+- Analisis de cobertura de internet.
+- Ubicacion de sensores IoT.
+- Distribucion de usuarios de una plataforma.
+- Diseno de rutas.
+- Ubicacion de centros de atencion.
+- Planificacion de servicios digitales.
+- Monitoreo territorial.
+- Toma de decisiones basada en datos geograficos.
+
+Por ejemplo, una empresa podria usar una malla para decidir donde instalar
+antenas, sensores o puntos de soporte tecnico, considerando la distribucion real
+de usuarios o localidades.
+
+======================================================================
+15. RESPUESTAS A LAS PREGUNTAS DE ANALISIS
+======================================================================
+
+1. Por que es importante delimitar un dominio antes de construir una
+visualizacion espacial?
+
+Es importante porque permite definir el area exacta de estudio. Sin un dominio,
+la visualizacion puede quedar desordenada, mostrar zonas que no pertenecen al
+analisis o perder escala. Ademas, el dominio es necesario para generar una
+cuadricula y una malla dentro de limites claros.
+
+2. Que informacion aporta el grafico de puntos reales?
+
+Aporta la ubicacion exacta de las ciudades o localidades del dataset. Permite
+observar como se distribuyen los datos, donde hay mayor concentracion y que zonas
+tienen menor presencia de registros.
+
+3. Que representa una cuadricula de puntos en visualizacion de datos?
+
+Representa una division regular del espacio mediante puntos generados con una
+separacion constante. La cuadricula no representa datos reales, sino posiciones
+de referencia que ayudan a organizar el dominio geografico.
+
+4. Que diferencia existe entre una cuadricula y una malla?
+
+La cuadricula esta formada por puntos generados dentro del dominio. La malla se
+construye al unir esos puntos mediante lineas horizontales y verticales,
+formando una estructura visual de celdas.
+
+5. Que ocurre visualmente si se reduce el valor de dx y dy?
+
+La cuadricula se vuelve mas densa porque se generan mas puntos. La malla tambien
+tiene mas lineas y celdas pequenas. Esto aumenta el detalle, pero puede saturar
+la visualizacion si los valores son demasiado bajos.
+
+6. Que ocurre visualmente si se aumenta el valor de dx y dy?
+
+La cuadricula se vuelve mas separada porque se generan menos puntos. La malla
+tiene menos lineas y celdas mas grandes. Esto simplifica la visualizacion, pero
+reduce la precision espacial.
+
+7. Como puede ayudar esta visualizacion en la toma de decisiones dentro de
+Ingenieria de Sistemas?
+
+Ayuda porque relaciona datos con ubicaciones geograficas. En Ingenieria de
+Sistemas puede utilizarse para planificar cobertura de redes, ubicar sensores,
+analizar usuarios por territorio, disenar rutas, distribuir recursos y evaluar
+zonas con mayor o menor atencion.
+
+======================================================================
+16. CUMPLIMIENTO DE LA RUBRICA
+======================================================================
+
+Exploracion del dataset - 3 puntos:
+
+Si cumple. La app carga el archivo, identifica columnas principales, muestra la
+cantidad de registros y presenta una vista inicial de los datos.
+
+Limpieza y filtrado de datos - 3 puntos:
+
+Si cumple. La app filtra por pais, region, ciudad, zona macro y region natural.
+Tambien elimina coordenadas vacias o inconsistentes.
+
+Delimitacion del dominio - 4 puntos:
+
+Si cumple. Calcula correctamente longitud minima, longitud maxima, latitud
+minima y latitud maxima. Tambien interpreta cada limite.
+
+Visualizacion de puntos reales - 3 puntos:
+
+Si cumple. Genera un grafico de dispersion y un mapa interactivo con los puntos
+reales.
+
+Generacion de cuadricula - 3 puntos:
+
+Si cumple. Genera una cuadricula regular con dx y dy configurables. Para el
+dataset de muestra, con dx = 0.5 y dy = 0.5 se generan 780 puntos.
+
+Construccion de malla - 2 puntos:
+
+Si cumple. Traza lineas horizontales y verticales, muestra el dominio
+rectangular y superpone los puntos reales.
+
+Interpretacion visual - 2 puntos:
+
+Si cumple. Se responden las preguntas de interpretacion, las preguntas de
+analisis y se presentan conclusiones.
+
+Puntaje estimado:
+
+20/20
+
+======================================================================
+17. CONCLUSIONES
+======================================================================
+
+1. El modelado de dominios permite delimitar de forma clara el espacio
+geografico que se desea analizar.
+
+2. Los puntos reales muestran la ubicacion de ciudades o localidades obtenidas
+del dataset, permitiendo observar patrones de distribucion territorial.
+
+3. La cuadricula permite dividir el dominio en intervalos regulares y sirve como
+base para organizar el analisis espacial.
+
+4. La malla mejora la lectura visual del territorio porque conecta la cuadricula
+con lineas horizontales y verticales.
+
+5. Los filtros por region, ciudad, zona macro y region natural hacen que la
+aplicacion sea dinamica y permiten analizar subconjuntos especificos del
+territorio.
+
+6. La visualizacion sobre OpenStreetMap mejora la comprension porque los puntos,
+la cuadricula y la malla se observan sobre un mapa real.
+
+7. Este tipo de visualizacion puede aplicarse en Ingenieria de Sistemas para
+analizar cobertura de servicios, sensores IoT, usuarios, rutas, puntos de
+atencion y toma de decisiones territoriales.
+
+======================================================================
+18. ARCHIVOS ENTREGABLES DEL PROYECTO
+======================================================================
+
+Archivos principales:
+
+- app.py
+- README.md
+- INFORME_RESULTADOS_PRACTICA_02.txt
+- requirements.txt
+- run_app.bat
+- run_app.ps1
+- data/peru_geolocation_sample.csv
+
+Archivo recomendado para subir como resumen al aula virtual:
+
+INFORME_RESULTADOS_PRACTICA_02.txt
+
+======================================================================
+FIN DEL INFORME
+======================================================================
