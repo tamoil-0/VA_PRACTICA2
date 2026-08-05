@@ -1,0 +1,5 @@
+Parametro,Valor,Interpretacion
+Longitud minima (xmin),-81.2719,Limite occidental del dominio
+Longitud maxima (xmax),-69.0417,Limite oriental del dominio
+Latitud minima (ymin),-18.0066,Limite sur del dominio
+Latitud maxima (ymax),-3.5011,Limite norte del dominio

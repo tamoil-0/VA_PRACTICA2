@@ -1,6 +1,10 @@
-streamlit>=1.36
-pandas>=2.0
-numpy>=1.24
-plotly>=5.20
-matplotlib>=3.8
-reportlab>=4.0
+# Dependencias de la Practica Calificada 02 - Visualizacion de Datos
+# Instalacion: pip install -r requirements.txt
+
+streamlit>=1.49        # aplicacion interactiva (usa width="stretch")
+pandas>=2.0            # carga, limpieza y tablas
+numpy>=1.24            # meshgrid, histogramas y calculo vectorizado
+plotly>=5.20           # graficos interactivos y mapas OpenStreetMap
+matplotlib>=3.8        # figuras estaticas para el informe PDF
+reportlab>=4.0         # generacion del informe PDF
+pytest>=8.0            # suite de tests (opcional, solo desarrollo)

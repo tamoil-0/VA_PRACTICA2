@@ -1,0 +1,140 @@
+city_name,country_name,region_name,place_type,latitude,longitude
+Chachapoyas,Peru,Amazonas,Capital departamental,-6.2294,-77.8720
+Bagua Grande,Peru,Amazonas,Capital provincial,-5.7550,-78.4419
+Bagua,Peru,Amazonas,Capital provincial,-5.6389,-78.5306
+Jumbilla,Peru,Amazonas,Capital provincial,-5.8983,-77.7833
+Lamud,Peru,Amazonas,Capital provincial,-6.1333,-77.8500
+Huaraz,Peru,Ancash,Capital departamental,-9.5278,-77.5278
+Chimbote,Peru,Ancash,Capital provincial,-9.0745,-78.5936
+Casma,Peru,Ancash,Capital provincial,-9.4747,-78.3006
+Caraz,Peru,Ancash,Capital provincial,-9.0489,-77.8100
+Huarmey,Peru,Ancash,Capital provincial,-10.0686,-78.1522
+Pomabamba,Peru,Ancash,Capital provincial,-8.8228,-77.4592
+Yungay,Peru,Ancash,Capital provincial,-9.1386,-77.7444
+Abancay,Peru,Apurimac,Capital departamental,-13.6339,-72.8814
+Andahuaylas,Peru,Apurimac,Capital provincial,-13.6575,-73.3872
+Chalhuanca,Peru,Apurimac,Capital provincial,-14.2939,-73.1750
+Chuquibambilla,Peru,Apurimac,Capital provincial,-14.1000,-72.6667
+Tambobamba,Peru,Apurimac,Capital provincial,-13.9439,-72.1783
+Arequipa,Peru,Arequipa,Capital departamental,-16.4090,-71.5375
+Camana,Peru,Arequipa,Capital provincial,-16.6236,-72.7108
+Mollendo,Peru,Arequipa,Capital provincial,-17.0231,-72.0147
+Chivay,Peru,Arequipa,Capital provincial,-15.6386,-71.5992
+Caraveli,Peru,Arequipa,Capital provincial,-15.7714,-73.3653
+Aplao,Peru,Arequipa,Capital provincial,-16.0703,-72.4881
+Ayacucho,Peru,Ayacucho,Capital departamental,-13.1639,-74.2236
+Huanta,Peru,Ayacucho,Capital provincial,-12.9375,-74.2489
+Puquio,Peru,Ayacucho,Capital provincial,-14.6969,-74.1250
+Coracora,Peru,Ayacucho,Capital provincial,-15.0292,-73.7803
+Cangallo,Peru,Ayacucho,Capital provincial,-13.6300,-74.1450
+Cajamarca,Peru,Cajamarca,Capital departamental,-7.1617,-78.5128
+Jaen,Peru,Cajamarca,Capital provincial,-5.7075,-78.8081
+Chota,Peru,Cajamarca,Capital provincial,-6.5606,-78.6486
+Cutervo,Peru,Cajamarca,Capital provincial,-6.3767,-78.8161
+Celendin,Peru,Cajamarca,Capital provincial,-6.8678,-78.1461
+Bambamarca,Peru,Cajamarca,Capital provincial,-6.6789,-78.5194
+Callao,Peru,Callao,Capital departamental,-12.0566,-77.1181
+Ventanilla,Peru,Callao,Distrito,-11.8756,-77.1264
+La Punta,Peru,Callao,Distrito,-12.0700,-77.1650
+Cusco,Peru,Cusco,Capital departamental,-13.5319,-71.9675
+Sicuani,Peru,Cusco,Capital provincial,-14.2694,-71.2264
+Quillabamba,Peru,Cusco,Capital provincial,-12.8636,-72.6919
+Urubamba,Peru,Cusco,Capital provincial,-13.3050,-72.1161
+Yauri,Peru,Cusco,Capital provincial,-14.7950,-71.4103
+Calca,Peru,Cusco,Capital provincial,-13.3242,-71.9539
+Huancavelica,Peru,Huancavelica,Capital departamental,-12.7867,-74.9739
+Pampas,Peru,Huancavelica,Capital provincial,-12.3944,-74.8919
+Lircay,Peru,Huancavelica,Capital provincial,-12.9800,-74.7250
+Castrovirreyna,Peru,Huancavelica,Capital provincial,-13.2778,-75.3117
+Churcampa,Peru,Huancavelica,Capital provincial,-12.7392,-74.3894
+Huanuco,Peru,Huanuco,Capital departamental,-9.9306,-76.2422
+Tingo Maria,Peru,Huanuco,Capital provincial,-9.2953,-75.9957
+La Union,Peru,Huanuco,Capital provincial,-9.8333,-76.8000
+Llata,Peru,Huanuco,Capital provincial,-9.4833,-76.8000
+Ambo,Peru,Huanuco,Capital provincial,-10.1300,-76.2100
+Ica,Peru,Ica,Capital departamental,-14.0678,-75.7286
+Chincha Alta,Peru,Ica,Capital provincial,-13.4194,-76.1319
+Pisco,Peru,Ica,Capital provincial,-13.7100,-76.2036
+Nazca,Peru,Ica,Capital provincial,-14.8286,-74.9392
+Palpa,Peru,Ica,Capital provincial,-14.5333,-75.1833
+Huancayo,Peru,Junin,Capital departamental,-12.0651,-75.2049
+Tarma,Peru,Junin,Capital provincial,-11.4192,-75.6906
+La Oroya,Peru,Junin,Capital provincial,-11.5225,-75.9036
+Jauja,Peru,Junin,Capital provincial,-11.7756,-75.4986
+Satipo,Peru,Junin,Capital provincial,-11.2528,-74.6375
+La Merced,Peru,Junin,Capital provincial,-11.0575,-75.3350
+Junin,Peru,Junin,Capital provincial,-11.1600,-75.9200
+Trujillo,Peru,La Libertad,Capital departamental,-8.1116,-79.0288
+Chepen,Peru,La Libertad,Capital provincial,-7.2264,-79.4297
+Otuzco,Peru,La Libertad,Capital provincial,-7.9028,-78.5731
+Huamachuco,Peru,La Libertad,Capital provincial,-7.8139,-78.0472
+Pacasmayo,Peru,La Libertad,Capital provincial,-7.4000,-79.5700
+Viru,Peru,La Libertad,Capital provincial,-8.4139,-78.7539
+Chiclayo,Peru,Lambayeque,Capital departamental,-6.7714,-79.8409
+Lambayeque,Peru,Lambayeque,Capital provincial,-6.7014,-79.9061
+Ferrenafe,Peru,Lambayeque,Capital provincial,-6.6389,-79.7889
+Motupe,Peru,Lambayeque,Distrito,-6.1500,-79.7167
+Olmos,Peru,Lambayeque,Distrito,-5.9861,-79.7500
+Lima,Peru,Lima,Capital departamental,-12.0464,-77.0428
+Huacho,Peru,Lima,Capital provincial,-11.1067,-77.6053
+Barranca,Peru,Lima,Capital provincial,-10.7500,-77.7639
+Huaral,Peru,Lima,Capital provincial,-11.4950,-77.2072
+San Vicente de Canete,Peru,Lima,Capital provincial,-13.0778,-76.3861
+Matucana,Peru,Lima,Capital provincial,-11.8433,-76.3792
+Canta,Peru,Lima,Capital provincial,-11.4667,-76.6250
+Iquitos,Peru,Loreto,Capital departamental,-3.7491,-73.2538
+Yurimaguas,Peru,Loreto,Capital provincial,-5.9000,-76.0833
+Nauta,Peru,Loreto,Capital provincial,-4.5058,-73.5794
+Requena,Peru,Loreto,Capital provincial,-5.0500,-73.8500
+Contamana,Peru,Loreto,Capital provincial,-7.3333,-75.0167
+Caballococha,Peru,Loreto,Capital provincial,-3.9083,-70.5167
+Puerto Maldonado,Peru,Madre de Dios,Capital departamental,-12.5933,-69.1891
+Iberia,Peru,Madre de Dios,Distrito,-11.4000,-69.4833
+Inapari,Peru,Madre de Dios,Distrito,-10.9500,-69.5833
+Salvacion,Peru,Madre de Dios,Capital provincial,-12.8333,-71.3333
+Moquegua,Peru,Moquegua,Capital departamental,-17.1939,-70.9350
+Ilo,Peru,Moquegua,Capital provincial,-17.6394,-71.3375
+Omate,Peru,Moquegua,Capital provincial,-16.6764,-70.9808
+Carumas,Peru,Moquegua,Distrito,-16.8167,-70.6833
+Cerro de Pasco,Peru,Pasco,Capital departamental,-10.6864,-76.2564
+Oxapampa,Peru,Pasco,Capital provincial,-10.5761,-75.4000
+Villa Rica,Peru,Pasco,Distrito,-10.7333,-75.2667
+Yanahuanca,Peru,Pasco,Capital provincial,-10.4986,-76.5106
+Piura,Peru,Piura,Capital departamental,-5.1945,-80.6328
+Sullana,Peru,Piura,Capital provincial,-4.9039,-80.6853
+Talara,Peru,Piura,Capital provincial,-4.5772,-81.2719
+Paita,Peru,Piura,Capital provincial,-5.0892,-81.1144
+Chulucanas,Peru,Piura,Capital provincial,-5.0958,-80.1631
+Ayabaca,Peru,Piura,Capital provincial,-4.6333,-79.7167
+Huancabamba,Peru,Piura,Capital provincial,-5.2400,-79.4500
+Sechura,Peru,Piura,Capital provincial,-5.5606,-80.8228
+Puno,Peru,Puno,Capital departamental,-15.8402,-70.0219
+Juliaca,Peru,Puno,Capital provincial,-15.4997,-70.1333
+Ilave,Peru,Puno,Capital provincial,-16.0847,-69.6633
+Yunguyo,Peru,Puno,Capital provincial,-16.2464,-69.0900
+Desaguadero,Peru,Puno,Distrito,-16.5656,-69.0417
+Azangaro,Peru,Puno,Capital provincial,-14.9067,-70.1922
+Ayaviri,Peru,Puno,Capital provincial,-14.8794,-70.5900
+Huancane,Peru,Puno,Capital provincial,-15.2033,-69.7594
+Putina,Peru,Puno,Capital provincial,-14.9167,-69.8667
+Sandia,Peru,Puno,Capital provincial,-14.3167,-69.4667
+Macusani,Peru,Puno,Capital provincial,-14.0700,-70.4300
+Lampa,Peru,Puno,Capital provincial,-15.3600,-70.3700
+Moho,Peru,Puno,Capital provincial,-15.3500,-69.5000
+Moyobamba,Peru,San Martin,Capital departamental,-6.0342,-76.9717
+Tarapoto,Peru,San Martin,Capital provincial,-6.4886,-76.3597
+Juanjui,Peru,San Martin,Capital provincial,-7.1783,-76.7278
+Rioja,Peru,San Martin,Capital provincial,-6.0592,-77.1650
+Bellavista,Peru,San Martin,Capital provincial,-7.0592,-76.5833
+Tocache,Peru,San Martin,Capital provincial,-8.1839,-76.5147
+Tacna,Peru,Tacna,Capital departamental,-18.0066,-70.2463
+Tarata,Peru,Tacna,Capital provincial,-17.4744,-70.0333
+Candarave,Peru,Tacna,Capital provincial,-17.2667,-70.2500
+Locumba,Peru,Tacna,Capital provincial,-17.6167,-70.7667
+Tumbes,Peru,Tumbes,Capital departamental,-3.5669,-80.4515
+Zarumilla,Peru,Tumbes,Capital provincial,-3.5011,-80.2717
+Zorritos,Peru,Tumbes,Capital provincial,-3.6764,-80.6764
+Pucallpa,Peru,Ucayali,Capital departamental,-8.3791,-74.5539
+Atalaya,Peru,Ucayali,Capital provincial,-10.7333,-73.7667
+Aguaytia,Peru,Ucayali,Capital provincial,-9.0361,-75.5019
+Puerto Esperanza,Peru,Ucayali,Capital provincial,-9.7667,-70.7000

@@ -1,0 +1,2368 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.5306,
+          -5.6389
+        ]
+      },
+      "properties": {
+        "Ciudad o localidad": "Bagua",
+        "Pais": "Peru",
+        "Region": "Amazonas",
+        "Zona macro": "Norte",
+        "Region natural": "Selva"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.4419,
+          -5.755
+        ]
+      },
+      "properties": {
+        "Ciudad o localidad": "Bagua Grande",
+        "Pais": "Peru",
+        "Region": "Amazonas",
+        "Zona macro": "Norte",
+        "Region natural": "Selva"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.872,
+          -6.2294
+        ]
+      },
+      "properties": {
+        "Ciudad o localidad": "Chachapoyas",
+        "Pais": "Peru",
+        "Region": "Amazonas",
+        "Zona macro": "Norte",
+        "Region natural": "Selva"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.7833,
+          -5.8983
+        ]
+      },
+      "properties": {
+        "Ciudad o localidad": "Jumbilla",
+        "Pais": "Peru",
+        "Region": "Amazonas",
+        "Zona macro": "Norte",
+        "Region natural": "Selva"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.85,
+          -6.1333
+        ]
+      },
+      "properties": {
+        "Ciudad o localidad": "Lamud",
+        "Pais": "Peru",
+        "Region": "Amazonas",
+        "Zona macro": "Norte",
+        "Region natural": "Selva"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.81,
+          -9.0489
+        ]
+      },
+      "properties": {
+        "Ciudad o localidad": "Caraz",
+        "Pais": "Peru",
+        "Region": "Ancash",
+        "Zona macro": "Centro",
+        "Region natural": "Costa"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.3006,
+          -9.4747
+        ]
+      },
+      "properties": {
+        "Ciudad o localidad": "Casma",
+        "Pais": "Peru",
+        "Region": "Ancash",
+        "Zona macro": "Centro",
+        "Region natural": "Costa"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.5936,
+          -9.0745
+        ]
+      },
+      "properties": {
+        "Ciudad o localidad": "Chimbote",
+        "Pais": "Peru",
+        "Region": "Ancash",
+        "Zona macro": "Centro",
+        "Region natural": "Costa"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.5278,
+          -9.5278
+        ]
+      },
+      "properties": {
+        "Ciudad o localidad": "Huaraz",
+        "Pais": "Peru",
+        "Region": "Ancash",
+        "Zona macro": "Centro",
+        "Region natural": "Costa"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.1522,
+          -10.0686
+        ]
+      },
+      "properties": {
+        "Ciudad o localidad": "Huarmey",
+        "Pais": "Peru",
+        "Region": "Ancash",
+        "Zona macro": "Centro",
+        "Region natural": "Costa"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.4592,
+          -8.8228
+        ]
+      },
+      "properties": {
+        "Ciudad o localidad": "Pomabamba",
+        "Pais": "Peru",
+        "Region": "Ancash",
+        "Zona macro": "Centro",
+        "Region natural": "Costa"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.7444,
+          -9.1386
+        ]
+      },
+      "properties": {
+        "Ciudad o localidad": "Yungay",
+        "Pais": "Peru",
+        "Region": "Ancash",
+        "Zona macro": "Centro",
+        "Region natural": "Costa"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.8814,
+          -13.6339
+        ]
+      },
+      "properties": {
+        "Ciudad o localidad": "Abancay",
+        "Pais": "Peru",
+        "Region": "Apurimac",
+        "Zona macro": "Sur",
+        "Region natural": "Sierra"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.3872,
+          -13.6575
+        ]
+      },
+      "properties": {
+        "Ciudad o localidad": "Andahuaylas",
+        "Pais": "Peru",
+        "Region": "Apurimac",
+        "Zona macro": "Sur",
+        "Region natural": "Sierra"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.175,
+          -14.2939
+        ]
+      },
+      "properties": {
+        "Ciudad o localidad": "Chalhuanca",
+        "Pais": "Peru",
+        "Region": "Apurimac",
+        "Zona macro": "Sur",
+        "Region natural": "Sierra"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.6667,
+          -14.1
+        ]
+      },
+      "properties": {
+        "Ciudad o localidad": "Chuquibambilla",
+        "Pais": "Peru",
+        "Region": "Apurimac",
+        "Zona macro": "Sur",
+        "Region natural": "Sierra"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.1783,
+          -13.9439
+        ]
+      },
+      "properties": {
+        "Ciudad o localidad": "Tambobamba",
+        "Pais": "Peru",
+        "Region": "Apurimac",
+        "Zona macro": "Sur",
+        "Region natural": "Sierra"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.4881,
+          -16.0703
+        ]
+      },
+      "properties": {
+        "Ciudad o localidad": "Aplao",
+        "Pais": "Peru",
+        "Region": "Arequipa",
+        "Zona macro": "Sur",
+        "Region natural": "Costa"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.5375,
+          -16.409
+        ]
+      },
+      "properties": {
+        "Ciudad o localidad": "Arequipa",
+        "Pais": "Peru",
+        "Region": "Arequipa",
+        "Zona macro": "Sur",
+        "Region natural": "Costa"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.7108,
+          -16.6236
+        ]
+      },
+      "properties": {
+        "Ciudad o localidad": "Camana",
+        "Pais": "Peru",
+        "Region": "Arequipa",
+        "Zona macro": "Sur",
+        "Region natural": "Costa"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.3653,
+          -15.7714
+        ]
+      },
+      "properties": {
+        "Ciudad o localidad": "Caraveli",
+        "Pais": "Peru",
+        "Region": "Arequipa",
+        "Zona macro": "Sur",
+        "Region natural": "Costa"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.5992,
+          -15.6386
+        ]
+      },
+      "properties": {
+        "Ciudad o localidad": "Chivay",
+        "Pais": "Peru",
+        "Region": "Arequipa",
+        "Zona macro": "Sur",
+        "Region natural": "Costa"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.0147,
+          -17.0231
+        ]
+      },
+      "properties": {
+        "Ciudad o localidad": "Mollendo",
+        "Pais": "Peru",
+        "Region": "Arequipa",
+        "Zona macro": "Sur",
+        "Region natural": "Costa"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.2236,
+          -13.1639
+        ]
+      },
+      "properties": {
+        "Ciudad o localidad": "Ayacucho",
+        "Pais": "Peru",
+        "Region": "Ayacucho",
+        "Zona macro": "Sur",
+        "Region natural": "Sierra"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.145,
+          -13.63
+        ]
+      },
+      "properties": {
+        "Ciudad o localidad": "Cangallo",
+        "Pais": "Peru",
+        "Region": "Ayacucho",
+        "Zona macro": "Sur",
+        "Region natural": "Sierra"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.7803,
+          -15.0292
+        ]
+      },
+      "properties": {
+        "Ciudad o localidad": "Coracora",
+        "Pais": "Peru",
+        "Region": "Ayacucho",
+        "Zona macro": "Sur",
+        "Region natural": "Sierra"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.2489,
+          -12.9375
+        ]
+      },
+      "properties": {
+        "Ciudad o localidad": "Huanta",
+        "Pais": "Peru",
+        "Region": "Ayacucho",
+        "Zona macro": "Sur",
+        "Region natural": "Sierra"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.125,
+          -14.6969
+        ]
+      },
+      "properties": {
+        "Ciudad o localidad": "Puquio",
+        "Pais": "Peru",
+        "Region": "Ayacucho",
+        "Zona macro": "Sur",
+        "Region natural": "Sierra"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.5194,
+          -6.6789
+        ]
+      },
+      "properties": {
+        "Ciudad o localidad": "Bambamarca",
+        "Pais": "Peru",
+        "Region": "Cajamarca",
+        "Zona macro": "Norte",
+        "Region natural": "Sierra"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.5128,
+          -7.1617
+        ]
+      },
+      "properties": {
+        "Ciudad o localidad": "Cajamarca",
+        "Pais": "Peru",
+        "Region": "Cajamarca",
+        "Zona macro": "Norte",
+        "Region natural": "Sierra"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.1461,
+          -6.8678
+        ]
+      },
+      "properties": {
+        "Ciudad o localidad": "Celendin",
+        "Pais": "Peru",
+        "Region": "Cajamarca",
+        "Zona macro": "Norte",
+        "Region natural": "Sierra"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.6486,
+          -6.5606
+        ]
+      },
+      "properties": {
+        "Ciudad o localidad": "Chota",
+        "Pais": "Peru",
+        "Region": "Cajamarca",
+        "Zona macro": "Norte",
+        "Region natural": "Sierra"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.8161,
+          -6.3767
+        ]
+      },
+      "properties": {
+        "Ciudad o localidad": "Cutervo",
+        "Pais": "Peru",
+        "Region": "Cajamarca",
+        "Zona macro": "Norte",
+        "Region natural": "Sierra"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.8081,
+          -5.7075
+        ]
+      },
+      "properties": {
+        "Ciudad o localidad": "Jaen",
+        "Pais": "Peru",
+        "Region": "Cajamarca",
+        "Zona macro": "Norte",
+        "Region natural": "Sierra"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.1181,
+          -12.0566
+        ]
+      },
+      "properties": {
+        "Ciudad o localidad": "Callao",
+        "Pais": "Peru",
+        "Region": "Callao",
+        "Zona macro": "Centro",
+        "Region natural": "Costa"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.165,
+          -12.07
+        ]
+      },
+      "properties": {
+        "Ciudad o localidad": "La Punta",
+        "Pais": "Peru",
+        "Region": "Callao",
+        "Zona macro": "Centro",
+        "Region natural": "Costa"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.1264,
+          -11.8756
+        ]
+      },
+      "properties": {
+        "Ciudad o localidad": "Ventanilla",
+        "Pais": "Peru",
+        "Region": "Callao",
+        "Zona macro": "Centro",
+        "Region natural": "Costa"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.9539,
+          -13.3242
+        ]
+      },
+      "properties": {
+        "Ciudad o localidad": "Calca",
+        "Pais": "Peru",
+        "Region": "Cusco",
+        "Zona macro": "Sur",
+        "Region natural": "Sierra"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.9675,
+          -13.5319
+        ]
+      },
+      "properties": {
+        "Ciudad o localidad": "Cusco",
+        "Pais": "Peru",
+        "Region": "Cusco",
+        "Zona macro": "Sur",
+        "Region natural": "Sierra"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.6919,
+          -12.8636
+        ]
+      },
+      "properties": {
+        "Ciudad o localidad": "Quillabamba",
+        "Pais": "Peru",
+        "Region": "Cusco",
+        "Zona macro": "Sur",
+        "Region natural": "Sierra"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.2264,
+          -14.2694
+        ]
+      },
+      "properties": {
+        "Ciudad o localidad": "Sicuani",
+        "Pais": "Peru",
+        "Region": "Cusco",
+        "Zona macro": "Sur",
+        "Region natural": "Sierra"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.1161,
+          -13.305
+        ]
+      },
+      "properties": {
+        "Ciudad o localidad": "Urubamba",
+        "Pais": "Peru",
+        "Region": "Cusco",
+        "Zona macro": "Sur",
+        "Region natural": "Sierra"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.4103,
+          -14.795
+        ]
+      },
+      "properties": {
+        "Ciudad o localidad": "Yauri",
+        "Pais": "Peru",
+        "Region": "Cusco",
+        "Zona macro": "Sur",
+        "Region natural": "Sierra"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.3117,
+          -13.2778
+        ]
+      },
+      "properties": {
+        "Ciudad o localidad": "Castrovirreyna",
+        "Pais": "Peru",
+        "Region": "Huancavelica",
+        "Zona macro": "Centro",
+        "Region natural": "Sierra"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.3894,
+          -12.7392
+        ]
+      },
+      "properties": {
+        "Ciudad o localidad": "Churcampa",
+        "Pais": "Peru",
+        "Region": "Huancavelica",
+        "Zona macro": "Centro",
+        "Region natural": "Sierra"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.9739,
+          -12.7867
+        ]
+      },
+      "properties": {
+        "Ciudad o localidad": "Huancavelica",
+        "Pais": "Peru",
+        "Region": "Huancavelica",
+        "Zona macro": "Centro",
+        "Region natural": "Sierra"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.725,
+          -12.98
+        ]
+      },
+      "properties": {
+        "Ciudad o localidad": "Lircay",
+        "Pais": "Peru",
+        "Region": "Huancavelica",
+        "Zona macro": "Centro",
+        "Region natural": "Sierra"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.8919,
+          -12.3944
+        ]
+      },
+      "properties": {
+        "Ciudad o localidad": "Pampas",
+        "Pais": "Peru",
+        "Region": "Huancavelica",
+        "Zona macro": "Centro",
+        "Region natural": "Sierra"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.21,
+          -10.13
+        ]
+      },
+      "properties": {
+        "Ciudad o localidad": "Ambo",
+        "Pais": "Peru",
+        "Region": "Huanuco",
+        "Zona macro": "Centro",
+        "Region natural": "Sierra"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.2422,
+          -9.9306
+        ]
+      },
+      "properties": {
+        "Ciudad o localidad": "Huanuco",
+        "Pais": "Peru",
+        "Region": "Huanuco",
+        "Zona macro": "Centro",
+        "Region natural": "Sierra"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.8,
+          -9.8333
+        ]
+      },
+      "properties": {
+        "Ciudad o localidad": "La Union",
+        "Pais": "Peru",
+        "Region": "Huanuco",
+        "Zona macro": "Centro",
+        "Region natural": "Sierra"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.8,
+          -9.4833
+        ]
+      },
+      "properties": {
+        "Ciudad o localidad": "Llata",
+        "Pais": "Peru",
+        "Region": "Huanuco",
+        "Zona macro": "Centro",
+        "Region natural": "Sierra"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.9957,
+          -9.2953
+        ]
+      },
+      "properties": {
+        "Ciudad o localidad": "Tingo Maria",
+        "Pais": "Peru",
+        "Region": "Huanuco",
+        "Zona macro": "Centro",
+        "Region natural": "Sierra"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.1319,
+          -13.4194
+        ]
+      },
+      "properties": {
+        "Ciudad o localidad": "Chincha Alta",
+        "Pais": "Peru",
+        "Region": "Ica",
+        "Zona macro": "Sur",
+        "Region natural": "Costa"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.7286,
+          -14.0678
+        ]
+      },
+      "properties": {
+        "Ciudad o localidad": "Ica",
+        "Pais": "Peru",
+        "Region": "Ica",
+        "Zona macro": "Sur",
+        "Region natural": "Costa"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.9392,
+          -14.8286
+        ]
+      },
+      "properties": {
+        "Ciudad o localidad": "Nazca",
+        "Pais": "Peru",
+        "Region": "Ica",
+        "Zona macro": "Sur",
+        "Region natural": "Costa"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.1833,
+          -14.5333
+        ]
+      },
+      "properties": {
+        "Ciudad o localidad": "Palpa",
+        "Pais": "Peru",
+        "Region": "Ica",
+        "Zona macro": "Sur",
+        "Region natural": "Costa"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.2036,
+          -13.71
+        ]
+      },
+      "properties": {
+        "Ciudad o localidad": "Pisco",
+        "Pais": "Peru",
+        "Region": "Ica",
+        "Zona macro": "Sur",
+        "Region natural": "Costa"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.2049,
+          -12.0651
+        ]
+      },
+      "properties": {
+        "Ciudad o localidad": "Huancayo",
+        "Pais": "Peru",
+        "Region": "Junin",
+        "Zona macro": "Centro",
+        "Region natural": "Sierra"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.4986,
+          -11.7756
+        ]
+      },
+      "properties": {
+        "Ciudad o localidad": "Jauja",
+        "Pais": "Peru",
+        "Region": "Junin",
+        "Zona macro": "Centro",
+        "Region natural": "Sierra"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.92,
+          -11.16
+        ]
+      },
+      "properties": {
+        "Ciudad o localidad": "Junin",
+        "Pais": "Peru",
+        "Region": "Junin",
+        "Zona macro": "Centro",
+        "Region natural": "Sierra"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.335,
+          -11.0575
+        ]
+      },
+      "properties": {
+        "Ciudad o localidad": "La Merced",
+        "Pais": "Peru",
+        "Region": "Junin",
+        "Zona macro": "Centro",
+        "Region natural": "Sierra"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.9036,
+          -11.5225
+        ]
+      },
+      "properties": {
+        "Ciudad o localidad": "La Oroya",
+        "Pais": "Peru",
+        "Region": "Junin",
+        "Zona macro": "Centro",
+        "Region natural": "Sierra"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.6375,
+          -11.2528
+        ]
+      },
+      "properties": {
+        "Ciudad o localidad": "Satipo",
+        "Pais": "Peru",
+        "Region": "Junin",
+        "Zona macro": "Centro",
+        "Region natural": "Sierra"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.6906,
+          -11.4192
+        ]
+      },
+      "properties": {
+        "Ciudad o localidad": "Tarma",
+        "Pais": "Peru",
+        "Region": "Junin",
+        "Zona macro": "Centro",
+        "Region natural": "Sierra"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.4297,
+          -7.2264
+        ]
+      },
+      "properties": {
+        "Ciudad o localidad": "Chepen",
+        "Pais": "Peru",
+        "Region": "La Libertad",
+        "Zona macro": "Norte",
+        "Region natural": "Costa"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.0472,
+          -7.8139
+        ]
+      },
+      "properties": {
+        "Ciudad o localidad": "Huamachuco",
+        "Pais": "Peru",
+        "Region": "La Libertad",
+        "Zona macro": "Norte",
+        "Region natural": "Costa"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.5731,
+          -7.9028
+        ]
+      },
+      "properties": {
+        "Ciudad o localidad": "Otuzco",
+        "Pais": "Peru",
+        "Region": "La Libertad",
+        "Zona macro": "Norte",
+        "Region natural": "Costa"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.57,
+          -7.4
+        ]
+      },
+      "properties": {
+        "Ciudad o localidad": "Pacasmayo",
+        "Pais": "Peru",
+        "Region": "La Libertad",
+        "Zona macro": "Norte",
+        "Region natural": "Costa"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.0288,
+          -8.1116
+        ]
+      },
+      "properties": {
+        "Ciudad o localidad": "Trujillo",
+        "Pais": "Peru",
+        "Region": "La Libertad",
+        "Zona macro": "Norte",
+        "Region natural": "Costa"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.7539,
+          -8.4139
+        ]
+      },
+      "properties": {
+        "Ciudad o localidad": "Viru",
+        "Pais": "Peru",
+        "Region": "La Libertad",
+        "Zona macro": "Norte",
+        "Region natural": "Costa"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.8409,
+          -6.7714
+        ]
+      },
+      "properties": {
+        "Ciudad o localidad": "Chiclayo",
+        "Pais": "Peru",
+        "Region": "Lambayeque",
+        "Zona macro": "Norte",
+        "Region natural": "Costa"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.7889,
+          -6.6389
+        ]
+      },
+      "properties": {
+        "Ciudad o localidad": "Ferrenafe",
+        "Pais": "Peru",
+        "Region": "Lambayeque",
+        "Zona macro": "Norte",
+        "Region natural": "Costa"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.9061,
+          -6.7014
+        ]
+      },
+      "properties": {
+        "Ciudad o localidad": "Lambayeque",
+        "Pais": "Peru",
+        "Region": "Lambayeque",
+        "Zona macro": "Norte",
+        "Region natural": "Costa"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.7167,
+          -6.15
+        ]
+      },
+      "properties": {
+        "Ciudad o localidad": "Motupe",
+        "Pais": "Peru",
+        "Region": "Lambayeque",
+        "Zona macro": "Norte",
+        "Region natural": "Costa"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.75,
+          -5.9861
+        ]
+      },
+      "properties": {
+        "Ciudad o localidad": "Olmos",
+        "Pais": "Peru",
+        "Region": "Lambayeque",
+        "Zona macro": "Norte",
+        "Region natural": "Costa"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.7639,
+          -10.75
+        ]
+      },
+      "properties": {
+        "Ciudad o localidad": "Barranca",
+        "Pais": "Peru",
+        "Region": "Lima",
+        "Zona macro": "Centro",
+        "Region natural": "Costa"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.625,
+          -11.4667
+        ]
+      },
+      "properties": {
+        "Ciudad o localidad": "Canta",
+        "Pais": "Peru",
+        "Region": "Lima",
+        "Zona macro": "Centro",
+        "Region natural": "Costa"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.6053,
+          -11.1067
+        ]
+      },
+      "properties": {
+        "Ciudad o localidad": "Huacho",
+        "Pais": "Peru",
+        "Region": "Lima",
+        "Zona macro": "Centro",
+        "Region natural": "Costa"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.2072,
+          -11.495
+        ]
+      },
+      "properties": {
+        "Ciudad o localidad": "Huaral",
+        "Pais": "Peru",
+        "Region": "Lima",
+        "Zona macro": "Centro",
+        "Region natural": "Costa"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.0428,
+          -12.0464
+        ]
+      },
+      "properties": {
+        "Ciudad o localidad": "Lima",
+        "Pais": "Peru",
+        "Region": "Lima",
+        "Zona macro": "Centro",
+        "Region natural": "Costa"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.3792,
+          -11.8433
+        ]
+      },
+      "properties": {
+        "Ciudad o localidad": "Matucana",
+        "Pais": "Peru",
+        "Region": "Lima",
+        "Zona macro": "Centro",
+        "Region natural": "Costa"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.3861,
+          -13.0778
+        ]
+      },
+      "properties": {
+        "Ciudad o localidad": "San Vicente de Canete",
+        "Pais": "Peru",
+        "Region": "Lima",
+        "Zona macro": "Centro",
+        "Region natural": "Costa"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.5167,
+          -3.9083
+        ]
+      },
+      "properties": {
+        "Ciudad o localidad": "Caballococha",
+        "Pais": "Peru",
+        "Region": "Loreto",
+        "Zona macro": "Norte",
+        "Region natural": "Selva"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.0167,
+          -7.3333
+        ]
+      },
+      "properties": {
+        "Ciudad o localidad": "Contamana",
+        "Pais": "Peru",
+        "Region": "Loreto",
+        "Zona macro": "Norte",
+        "Region natural": "Selva"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.2538,
+          -3.7491
+        ]
+      },
+      "properties": {
+        "Ciudad o localidad": "Iquitos",
+        "Pais": "Peru",
+        "Region": "Loreto",
+        "Zona macro": "Norte",
+        "Region natural": "Selva"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.5794,
+          -4.5058
+        ]
+      },
+      "properties": {
+        "Ciudad o localidad": "Nauta",
+        "Pais": "Peru",
+        "Region": "Loreto",
+        "Zona macro": "Norte",
+        "Region natural": "Selva"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.85,
+          -5.05
+        ]
+      },
+      "properties": {
+        "Ciudad o localidad": "Requena",
+        "Pais": "Peru",
+        "Region": "Loreto",
+        "Zona macro": "Norte",
+        "Region natural": "Selva"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.0833,
+          -5.9
+        ]
+      },
+      "properties": {
+        "Ciudad o localidad": "Yurimaguas",
+        "Pais": "Peru",
+        "Region": "Loreto",
+        "Zona macro": "Norte",
+        "Region natural": "Selva"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -69.4833,
+          -11.4
+        ]
+      },
+      "properties": {
+        "Ciudad o localidad": "Iberia",
+        "Pais": "Peru",
+        "Region": "Madre de Dios",
+        "Zona macro": "Sur",
+        "Region natural": "Selva"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -69.5833,
+          -10.95
+        ]
+      },
+      "properties": {
+        "Ciudad o localidad": "Inapari",
+        "Pais": "Peru",
+        "Region": "Madre de Dios",
+        "Zona macro": "Sur",
+        "Region natural": "Selva"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -69.1891,
+          -12.5933
+        ]
+      },
+      "properties": {
+        "Ciudad o localidad": "Puerto Maldonado",
+        "Pais": "Peru",
+        "Region": "Madre de Dios",
+        "Zona macro": "Sur",
+        "Region natural": "Selva"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.3333,
+          -12.8333
+        ]
+      },
+      "properties": {
+        "Ciudad o localidad": "Salvacion",
+        "Pais": "Peru",
+        "Region": "Madre de Dios",
+        "Zona macro": "Sur",
+        "Region natural": "Selva"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.6833,
+          -16.8167
+        ]
+      },
+      "properties": {
+        "Ciudad o localidad": "Carumas",
+        "Pais": "Peru",
+        "Region": "Moquegua",
+        "Zona macro": "Sur",
+        "Region natural": "Costa"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.3375,
+          -17.6394
+        ]
+      },
+      "properties": {
+        "Ciudad o localidad": "Ilo",
+        "Pais": "Peru",
+        "Region": "Moquegua",
+        "Zona macro": "Sur",
+        "Region natural": "Costa"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.935,
+          -17.1939
+        ]
+      },
+      "properties": {
+        "Ciudad o localidad": "Moquegua",
+        "Pais": "Peru",
+        "Region": "Moquegua",
+        "Zona macro": "Sur",
+        "Region natural": "Costa"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.9808,
+          -16.6764
+        ]
+      },
+      "properties": {
+        "Ciudad o localidad": "Omate",
+        "Pais": "Peru",
+        "Region": "Moquegua",
+        "Zona macro": "Sur",
+        "Region natural": "Costa"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.2564,
+          -10.6864
+        ]
+      },
+      "properties": {
+        "Ciudad o localidad": "Cerro de Pasco",
+        "Pais": "Peru",
+        "Region": "Pasco",
+        "Zona macro": "Centro",
+        "Region natural": "Sierra"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.4,
+          -10.5761
+        ]
+      },
+      "properties": {
+        "Ciudad o localidad": "Oxapampa",
+        "Pais": "Peru",
+        "Region": "Pasco",
+        "Zona macro": "Centro",
+        "Region natural": "Sierra"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.2667,
+          -10.7333
+        ]
+      },
+      "properties": {
+        "Ciudad o localidad": "Villa Rica",
+        "Pais": "Peru",
+        "Region": "Pasco",
+        "Zona macro": "Centro",
+        "Region natural": "Sierra"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.5106,
+          -10.4986
+        ]
+      },
+      "properties": {
+        "Ciudad o localidad": "Yanahuanca",
+        "Pais": "Peru",
+        "Region": "Pasco",
+        "Zona macro": "Centro",
+        "Region natural": "Sierra"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.7167,
+          -4.6333
+        ]
+      },
+      "properties": {
+        "Ciudad o localidad": "Ayabaca",
+        "Pais": "Peru",
+        "Region": "Piura",
+        "Zona macro": "Norte",
+        "Region natural": "Costa"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.1631,
+          -5.0958
+        ]
+      },
+      "properties": {
+        "Ciudad o localidad": "Chulucanas",
+        "Pais": "Peru",
+        "Region": "Piura",
+        "Zona macro": "Norte",
+        "Region natural": "Costa"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.45,
+          -5.24
+        ]
+      },
+      "properties": {
+        "Ciudad o localidad": "Huancabamba",
+        "Pais": "Peru",
+        "Region": "Piura",
+        "Zona macro": "Norte",
+        "Region natural": "Costa"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.1144,
+          -5.0892
+        ]
+      },
+      "properties": {
+        "Ciudad o localidad": "Paita",
+        "Pais": "Peru",
+        "Region": "Piura",
+        "Zona macro": "Norte",
+        "Region natural": "Costa"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.6328,
+          -5.1945
+        ]
+      },
+      "properties": {
+        "Ciudad o localidad": "Piura",
+        "Pais": "Peru",
+        "Region": "Piura",
+        "Zona macro": "Norte",
+        "Region natural": "Costa"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.8228,
+          -5.5606
+        ]
+      },
+      "properties": {
+        "Ciudad o localidad": "Sechura",
+        "Pais": "Peru",
+        "Region": "Piura",
+        "Zona macro": "Norte",
+        "Region natural": "Costa"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.6853,
+          -4.9039
+        ]
+      },
+      "properties": {
+        "Ciudad o localidad": "Sullana",
+        "Pais": "Peru",
+        "Region": "Piura",
+        "Zona macro": "Norte",
+        "Region natural": "Costa"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.2719,
+          -4.5772
+        ]
+      },
+      "properties": {
+        "Ciudad o localidad": "Talara",
+        "Pais": "Peru",
+        "Region": "Piura",
+        "Zona macro": "Norte",
+        "Region natural": "Costa"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.59,
+          -14.8794
+        ]
+      },
+      "properties": {
+        "Ciudad o localidad": "Ayaviri",
+        "Pais": "Peru",
+        "Region": "Puno",
+        "Zona macro": "Sur",
+        "Region natural": "Sierra"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.1922,
+          -14.9067
+        ]
+      },
+      "properties": {
+        "Ciudad o localidad": "Azangaro",
+        "Pais": "Peru",
+        "Region": "Puno",
+        "Zona macro": "Sur",
+        "Region natural": "Sierra"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -69.0417,
+          -16.5656
+        ]
+      },
+      "properties": {
+        "Ciudad o localidad": "Desaguadero",
+        "Pais": "Peru",
+        "Region": "Puno",
+        "Zona macro": "Sur",
+        "Region natural": "Sierra"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -69.7594,
+          -15.2033
+        ]
+      },
+      "properties": {
+        "Ciudad o localidad": "Huancane",
+        "Pais": "Peru",
+        "Region": "Puno",
+        "Zona macro": "Sur",
+        "Region natural": "Sierra"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -69.6633,
+          -16.0847
+        ]
+      },
+      "properties": {
+        "Ciudad o localidad": "Ilave",
+        "Pais": "Peru",
+        "Region": "Puno",
+        "Zona macro": "Sur",
+        "Region natural": "Sierra"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.1333,
+          -15.4997
+        ]
+      },
+      "properties": {
+        "Ciudad o localidad": "Juliaca",
+        "Pais": "Peru",
+        "Region": "Puno",
+        "Zona macro": "Sur",
+        "Region natural": "Sierra"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.37,
+          -15.36
+        ]
+      },
+      "properties": {
+        "Ciudad o localidad": "Lampa",
+        "Pais": "Peru",
+        "Region": "Puno",
+        "Zona macro": "Sur",
+        "Region natural": "Sierra"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.43,
+          -14.07
+        ]
+      },
+      "properties": {
+        "Ciudad o localidad": "Macusani",
+        "Pais": "Peru",
+        "Region": "Puno",
+        "Zona macro": "Sur",
+        "Region natural": "Sierra"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -69.5,
+          -15.35
+        ]
+      },
+      "properties": {
+        "Ciudad o localidad": "Moho",
+        "Pais": "Peru",
+        "Region": "Puno",
+        "Zona macro": "Sur",
+        "Region natural": "Sierra"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.0219,
+          -15.8402
+        ]
+      },
+      "properties": {
+        "Ciudad o localidad": "Puno",
+        "Pais": "Peru",
+        "Region": "Puno",
+        "Zona macro": "Sur",
+        "Region natural": "Sierra"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -69.8667,
+          -14.9167
+        ]
+      },
+      "properties": {
+        "Ciudad o localidad": "Putina",
+        "Pais": "Peru",
+        "Region": "Puno",
+        "Zona macro": "Sur",
+        "Region natural": "Sierra"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -69.4667,
+          -14.3167
+        ]
+      },
+      "properties": {
+        "Ciudad o localidad": "Sandia",
+        "Pais": "Peru",
+        "Region": "Puno",
+        "Zona macro": "Sur",
+        "Region natural": "Sierra"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -69.09,
+          -16.2464
+        ]
+      },
+      "properties": {
+        "Ciudad o localidad": "Yunguyo",
+        "Pais": "Peru",
+        "Region": "Puno",
+        "Zona macro": "Sur",
+        "Region natural": "Sierra"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.5833,
+          -7.0592
+        ]
+      },
+      "properties": {
+        "Ciudad o localidad": "Bellavista",
+        "Pais": "Peru",
+        "Region": "San Martin",
+        "Zona macro": "Norte",
+        "Region natural": "Selva"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.7278,
+          -7.1783
+        ]
+      },
+      "properties": {
+        "Ciudad o localidad": "Juanjui",
+        "Pais": "Peru",
+        "Region": "San Martin",
+        "Zona macro": "Norte",
+        "Region natural": "Selva"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.9717,
+          -6.0342
+        ]
+      },
+      "properties": {
+        "Ciudad o localidad": "Moyobamba",
+        "Pais": "Peru",
+        "Region": "San Martin",
+        "Zona macro": "Norte",
+        "Region natural": "Selva"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.165,
+          -6.0592
+        ]
+      },
+      "properties": {
+        "Ciudad o localidad": "Rioja",
+        "Pais": "Peru",
+        "Region": "San Martin",
+        "Zona macro": "Norte",
+        "Region natural": "Selva"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.3597,
+          -6.4886
+        ]
+      },
+      "properties": {
+        "Ciudad o localidad": "Tarapoto",
+        "Pais": "Peru",
+        "Region": "San Martin",
+        "Zona macro": "Norte",
+        "Region natural": "Selva"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.5147,
+          -8.1839
+        ]
+      },
+      "properties": {
+        "Ciudad o localidad": "Tocache",
+        "Pais": "Peru",
+        "Region": "San Martin",
+        "Zona macro": "Norte",
+        "Region natural": "Selva"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.25,
+          -17.2667
+        ]
+      },
+      "properties": {
+        "Ciudad o localidad": "Candarave",
+        "Pais": "Peru",
+        "Region": "Tacna",
+        "Zona macro": "Sur",
+        "Region natural": "Costa"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.7667,
+          -17.6167
+        ]
+      },
+      "properties": {
+        "Ciudad o localidad": "Locumba",
+        "Pais": "Peru",
+        "Region": "Tacna",
+        "Zona macro": "Sur",
+        "Region natural": "Costa"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.2463,
+          -18.0066
+        ]
+      },
+      "properties": {
+        "Ciudad o localidad": "Tacna",
+        "Pais": "Peru",
+        "Region": "Tacna",
+        "Zona macro": "Sur",
+        "Region natural": "Costa"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.0333,
+          -17.4744
+        ]
+      },
+      "properties": {
+        "Ciudad o localidad": "Tarata",
+        "Pais": "Peru",
+        "Region": "Tacna",
+        "Zona macro": "Sur",
+        "Region natural": "Costa"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.4515,
+          -3.5669
+        ]
+      },
+      "properties": {
+        "Ciudad o localidad": "Tumbes",
+        "Pais": "Peru",
+        "Region": "Tumbes",
+        "Zona macro": "Norte",
+        "Region natural": "Costa"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.2717,
+          -3.5011
+        ]
+      },
+      "properties": {
+        "Ciudad o localidad": "Zarumilla",
+        "Pais": "Peru",
+        "Region": "Tumbes",
+        "Zona macro": "Norte",
+        "Region natural": "Costa"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.6764,
+          -3.6764
+        ]
+      },
+      "properties": {
+        "Ciudad o localidad": "Zorritos",
+        "Pais": "Peru",
+        "Region": "Tumbes",
+        "Zona macro": "Norte",
+        "Region natural": "Costa"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.5019,
+          -9.0361
+        ]
+      },
+      "properties": {
+        "Ciudad o localidad": "Aguaytia",
+        "Pais": "Peru",
+        "Region": "Ucayali",
+        "Zona macro": "Centro",
+        "Region natural": "Selva"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.7667,
+          -10.7333
+        ]
+      },
+      "properties": {
+        "Ciudad o localidad": "Atalaya",
+        "Pais": "Peru",
+        "Region": "Ucayali",
+        "Zona macro": "Centro",
+        "Region natural": "Selva"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.5539,
+          -8.3791
+        ]
+      },
+      "properties": {
+        "Ciudad o localidad": "Pucallpa",
+        "Pais": "Peru",
+        "Region": "Ucayali",
+        "Zona macro": "Centro",
+        "Region natural": "Selva"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.7,
+          -9.7667
+        ]
+      },
+      "properties": {
+        "Ciudad o localidad": "Puerto Esperanza",
+        "Pais": "Peru",
+        "Region": "Ucayali",
+        "Zona macro": "Centro",
+        "Region natural": "Selva"
+      }
+    }
+  ]
+}

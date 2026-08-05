@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+
+# Herramientas
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+
+# Streamlit
+.streamlit/secrets.toml
+
+# Datos descargados de Kaggle (pesados, se regeneran con scripts/)
+data/kaggle/
+
+# Sistema operativo / editores
+Thumbs.db
+desktop.ini
+.DS_Store
+.vscode/
+.idea/
